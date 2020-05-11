@@ -1,0 +1,52 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sqisland.android.espresso.cat_names"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->/Users/louiswollenberger/Desktop/Ex_Files_Android_Espresso_Advanced/Exercise Files/Ch01/01_02/Start/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/louiswollenberger/Desktop/Ex_Files_Android_Espresso_Advanced/Exercise Files/Ch01/01_02/Start/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Users/louiswollenberger/Desktop/Ex_Files_Android_Espresso_Advanced/Exercise Files/Ch01/01_02/Start/app/src/main/AndroidManifest.xml:4:3-20:17
+12        android:allowBackup="false"
+12-->/Users/louiswollenberger/Desktop/Ex_Files_Android_Espresso_Advanced/Exercise Files/Ch01/01_02/Start/app/src/main/AndroidManifest.xml:8:7-34
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.1.0] /Users/louiswollenberger/.gradle/caches/transforms-2/files-2.1/cf83f438fd751d9ff271198248ec750b/core-1.1.0/AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->/Users/louiswollenberger/Desktop/Ex_Files_Android_Espresso_Advanced/Exercise Files/Ch01/01_02/Start/app/src/main/AndroidManifest.xml:6:7-41
+16        android:label="@string/app_name"
+16-->/Users/louiswollenberger/Desktop/Ex_Files_Android_Espresso_Advanced/Exercise Files/Ch01/01_02/Start/app/src/main/AndroidManifest.xml:5:7-39
+17        android:testOnly="true"
+18        android:theme="@style/AppTheme" >
+18-->/Users/louiswollenberger/Desktop/Ex_Files_Android_Espresso_Advanced/Exercise Files/Ch01/01_02/Start/app/src/main/AndroidManifest.xml:7:7-38
+19        <activity
+19-->/Users/louiswollenberger/Desktop/Ex_Files_Android_Espresso_Advanced/Exercise Files/Ch01/01_02/Start/app/src/main/AndroidManifest.xml:9:5-16:16
+20            android:name="com.sqisland.android.espresso.cat_names.MainActivity"
+20-->/Users/louiswollenberger/Desktop/Ex_Files_Android_Espresso_Advanced/Exercise Files/Ch01/01_02/Start/app/src/main/AndroidManifest.xml:10:9-37
+21            android:label="@string/app_name" >
+21-->/Users/louiswollenberger/Desktop/Ex_Files_Android_Espresso_Advanced/Exercise Files/Ch01/01_02/Start/app/src/main/AndroidManifest.xml:11:9-41
+22            <intent-filter>
+22-->/Users/louiswollenberger/Desktop/Ex_Files_Android_Espresso_Advanced/Exercise Files/Ch01/01_02/Start/app/src/main/AndroidManifest.xml:12:7-15:23
+23                <action android:name="android.intent.action.MAIN" />
+23-->/Users/louiswollenberger/Desktop/Ex_Files_Android_Espresso_Advanced/Exercise Files/Ch01/01_02/Start/app/src/main/AndroidManifest.xml:13:9-60
+23-->/Users/louiswollenberger/Desktop/Ex_Files_Android_Espresso_Advanced/Exercise Files/Ch01/01_02/Start/app/src/main/AndroidManifest.xml:13:17-58
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->/Users/louiswollenberger/Desktop/Ex_Files_Android_Espresso_Advanced/Exercise Files/Ch01/01_02/Start/app/src/main/AndroidManifest.xml:14:9-68
+25-->/Users/louiswollenberger/Desktop/Ex_Files_Android_Espresso_Advanced/Exercise Files/Ch01/01_02/Start/app/src/main/AndroidManifest.xml:14:19-66
+26            </intent-filter>
+27        </activity>
+28        <activity
+28-->/Users/louiswollenberger/Desktop/Ex_Files_Android_Espresso_Advanced/Exercise Files/Ch01/01_02/Start/app/src/main/AndroidManifest.xml:17:5-19:46
+29            android:name="com.sqisland.android.espresso.cat_names.IdeasActivity"
+29-->/Users/louiswollenberger/Desktop/Ex_Files_Android_Espresso_Advanced/Exercise Files/Ch01/01_02/Start/app/src/main/AndroidManifest.xml:18:9-38
+30            android:label="@string/title_ideas" />
+30-->/Users/louiswollenberger/Desktop/Ex_Files_Android_Espresso_Advanced/Exercise Files/Ch01/01_02/Start/app/src/main/AndroidManifest.xml:19:9-44
+31    </application>
+32
+33</manifest>
